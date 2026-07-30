@@ -9,8 +9,8 @@ namespace _2.ConstanteTiposDatosOperadores
             //Constantes
             const string iva = "19%";
             string nombre = "Carlos";
-            nombre = "Si?";
-            //iva = "21%"; A una constante no se le puede cambiar el valor en medio de la ejecucion
+            nombre = "Si?"; //Una variable puede cambiar en cualquier momento de la ejecucion
+            //iva = "20%"; A una constante no se le puede cambiar el valor en medio de la ejecucion
 
             //Tipos de datos
             byte dato1 = 255;
@@ -22,6 +22,7 @@ namespace _2.ConstanteTiposDatosOperadores
             string dato7 = "Buenos Dias";
             bool dato8 = true; //"true" o "false"
             object dato9 = new object();
+            decimal dato19 = 100009819726162745364.189838716756454354m;
 
 
             //Operadores
