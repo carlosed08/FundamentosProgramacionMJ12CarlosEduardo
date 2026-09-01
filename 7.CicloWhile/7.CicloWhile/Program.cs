@@ -28,7 +28,7 @@ namespace _7.CicloWhile
             {
                 acumuladorF = acumuladorF * contadorF;
                 contadorF++;
-                //Console.WriteLine($"Acumulador: {acumuladorF}, Contador: {contadorF} y Factorial: {numF}!");
+                Console.WriteLine($"Acumulador: {acumuladorF}, Contador: {contadorF} y Factorial: {numF}!");
 
             }
             Console.WriteLine($"\n\nFactorial: {numF}! = {acumuladorF}");
