@@ -24,7 +24,18 @@ namespace _13.CicloFor
             {
                 acumulador = contador * acumulador;
             }
-            Console.WriteLine($"El factorial del numero {numero} es {acumulador}");
+            Console.WriteLine($"{numero}! es {acumulador}");
+            //Realizar un programa que permita imprimir por pantalla los números múltiplos de 5, el usuario debe ingresar por el teclado el rango de números a evaluar.
+            numero = 0;
+            Console.WriteLine("Escoja un rango de numeros para analizar, si es multiplo de 5 el numero del contador se mostrara en pantalla\n(Escribe unicamente el numero final del rango)");
+            numero = int.Parse(Console.ReadLine());
+            for (int contador = 1; contador <= numero; contador++)
+            {
+                if(contador % 5 == 0)
+                {
+                    Console.WriteLine($"\n{contador}");
+                }
+            }
         }
     }
 }
